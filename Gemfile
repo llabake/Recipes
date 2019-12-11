@@ -6,11 +6,14 @@ ruby '2.6.5'
 gem 'active_model_serializers', '~> 0.10.0'
 gem 'bcrypt', '~> 3.1', '>= 3.1.13'
 gem 'bootsnap', '>= 1.4.2', require: false
+gem 'devise', '~> 4.7', '>= 4.7.1'
+gem "font-awesome-rails"
 gem 'foreman', '~> 0.86.0'
 gem 'jbuilder', '~> 2.7'
+gem "jwt"
 gem 'materialize-sass', '~> 1.0'
 gem 'pg', '>= 0.18', '< 2.0'
-gem 'puma', '~> 3.11'
+gem "puma", ">= 3.12.2"
 gem 'sass-rails', '~> 5'
 gem 'will_paginate'
 gem 'redis', '~> 4.1', '>= 4.1.3'
