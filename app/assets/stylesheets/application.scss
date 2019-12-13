@@ -1,0 +1,39 @@
+@import "materialize";
+@import "https://fonts.googleapis.com/icon?family=Material+Icons";
+
+.nav-wrapper {
+  background-color: #765770;
+}
+
+#background {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  background: image-url("test2.jpg") no-repeat;
+  background-size: cover;
+}
+
+//.banner{
+//  background-size: cover;
+//  //padding: 150px 0;
+//  text-align: center;
+//  color: white;
+//
+//  //height:50vw;
+//  //width:100vw;
+//  //margin-bottom:20px;
+//}
+
+.page-footer {
+  background-color: #9d8799;
+}
+
+.social-links li {
+  font-size: 2.5em;
+}

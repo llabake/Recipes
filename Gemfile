@@ -11,6 +11,7 @@ gem "font-awesome-rails"
 gem 'foreman', '~> 0.86.0'
 gem 'jbuilder', '~> 2.7'
 gem "jwt"
+gem 'material_icons'
 gem 'materialize-sass', '~> 1.0'
 gem 'pg', '>= 0.18', '< 2.0'
 gem "puma", ">= 3.12.2"
@@ -18,6 +19,7 @@ gem 'sass-rails', '~> 5'
 gem 'will_paginate'
 gem 'redis', '~> 4.1', '>= 4.1.3'
 gem 'rails', '~> 6.0.0'
+gem 'sardaunan_view_tool', '~> 0.1.0'
 gem 'turbolinks', '~> 5'
 gem 'webpacker', '~> 4.0'
 
