@@ -1,31 +1,23 @@
 <header>
   <div class="navbar-fixed">
     <nav>
-      <div class="nav-wrapper">
-        <a href="index.html" class="brand-logo adjust">Recipes</a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <!-- <li><a href="favorites.html">Your Favorites</a></li> -->
-          <li><a href="#top-recipes">Top Recipes</a></li>
-          <li><a href="signup_login.html">Sign Up/Login</a></li>
-
-        </ul>
-      </div>
+<!--      <div class="container">-->
+        <div class="nav-wrapper">
+          <%= link_to "Recipes", root_path, class: "brand-logo adjust"%>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+            <i class="material-icons">menu</i>
+          </a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><%= link_to "Top Recipes", '#top-recipes'%></li>
+            <li class="login-helper"><%= login_helper %></li>
+          </ul>
+        </div>
+<!--      </div>-->
     </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+      <li><%= link_to "Top Recipes", '#top-recipes'%></li>
+      <li class="login-helper"><%= login_helper %></li>
+    </ul>
   </div>
 </header>
-<!--<div class="navbar-fixed">-->
-<!--  <nav>-->
-<!--    <div class="container">-->
-<!--      <div class="nav-wrapper">-->
-<!--        <a href="index.html" class="brand-logo adjust">Recipes</a>-->
-<!--        <ul id="nav-mobile" class="right hide-on-med-and-down">-->
-          <!-- <li><a href="favorites.html">Your Favorites</a></li> -->
-<!--          <li><a href="#top-recipes">Top Recipes</a></li>-->
-<!--          <li><a href="signup_login.html">Sign Up/Login</a></li>-->
-
-<!--        </ul>-->
-<!--      </div>-->
-<!--    </div>-->
-<!--  </nav>-->
-<!--</div>-->
-
