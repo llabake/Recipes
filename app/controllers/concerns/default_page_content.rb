@@ -6,7 +6,7 @@ module DefaultPageContent
   end
 
   def set_page_defaults
-    @page_title = 'Recipes: Share​ ​awesome​ ​and​ ​exciting​ ​​ ​recipe​ ​ideas'
-    @seo_keywords = 'Recipes, Share, Cook, Mama'
+    @page_title = "Recipes: Share​ ​awesome​ ​and​ ​exciting​ ​​ ​recipe​ ​ideas"
+    @seo_keywords = "Recipes, Share, Cook, Mama"
   end
 end
